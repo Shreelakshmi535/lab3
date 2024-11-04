@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #dfdae1; /* light lavender */
+}
+
+.main-tab {
+    width: 650px;
+    padding: 20px;
+    background-color: #489a85; /* soft lavender */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.calculator-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.currency-info {
+    background-color: #906691; /* purple color */
+    padding: 4px 10px; /* reduced vertical padding, kept horizontal padding */
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    max-width: 150px; /* increased width */
+    height: auto; /* allows for natural height */
+}
+
+
+
+
+h1 {
+    margin: 0;
+    color: #6a1b9a; /* deep purple */
+    font-weight: 500;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #4a148c; /* dark purple */
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #01314a; /* purple border */
+    border-radius: 5px;
+    background-color: #f3e5f5;
+}
+
+input[type="range"] {
+    width: 60%;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #68c8c2;
+    border-radius: 5px;
+    background-color: #f3e5f5;
+}
